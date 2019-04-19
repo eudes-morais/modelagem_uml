@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Aluno" version="4">
+  <OBJECT>
+    <ID name="Aluno" mc="Standard.Class" uid="5a2f71a5-3b32-4a56-aafc-70a16048e0d0"/>
+    <PID name="minimundo4_universidadegh" mc="Standard.Package" uid="048f7204-eabb-4a1f-b281-06573c7c919b"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Aluno]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedEnd">
+        <REFOBJ>
+          <ID name="disciplinas" mc="Standard.AssociationEnd" uid="b131c89b-7e2e-4b55-9cd7-4b86088e069b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="provas" mc="Standard.AssociationEnd" uid="6a8cba6a-c5d5-4e3b-93f8-e3890360f36b"/>
+        </REFOBJ>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="308f26e3-6fd0-4969-821a-84742d7d4461"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="PessoaUniversidade" mc="Standard.Class" uid="1228f869-ca01-4a90-8364-a3c70eb67564"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="067ae053-8d08-41b0-b0bb-8fcd616c1ace"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Os atributos ENDERECO e TELEFONE, devem ser classes, pois o um aluno pode ter mais de um endereço e mais de um telefone.]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

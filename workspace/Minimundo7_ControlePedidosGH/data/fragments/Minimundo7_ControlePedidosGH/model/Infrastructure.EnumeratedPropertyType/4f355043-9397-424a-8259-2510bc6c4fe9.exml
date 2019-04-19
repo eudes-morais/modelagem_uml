@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="StatusProduto" version="4">
+  <OBJECT>
+    <ID name="StatusProduto" mc="Infrastructure.EnumeratedPropertyType" uid="4f355043-9397-424a-8259-2510bc6c4fe9"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="897a7e85-9773-4c2f-9e8f-a8b120256adc"/>
+    <ATTRIBUTES>
+      <ATT name="BaseType">Enumerate</ATT>
+      <ATT name="Name"><![CDATA[StatusProduto]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Litteral">
+        <OBJECT>
+          <ID name="Bloqueado" mc="Infrastructure.PropertyEnumerationLitteral" uid="e67d1c37-8952-4fcd-a2fe-1b6b99c3c6fc"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Bloqueado]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Disponível" mc="Infrastructure.PropertyEnumerationLitteral" uid="203da0b3-58aa-4977-8b23-f20673f12115"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Disponível]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Suspenso" mc="Infrastructure.PropertyEnumerationLitteral" uid="a6642e85-9e84-4916-8dc4-5c8b0ecfce27"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Suspenso]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LocalModule" version="4">
+  <OBJECT>
+    <ID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="897a7e85-9773-4c2f-9e8f-a8b120256adc"/>
+    <ATTRIBUTES>
+      <ATT name="LicenseKey">0</ATT>
+      <ATT name="MajVersion">0</ATT>
+      <ATT name="MinVersion">0</ATT>
+      <ATT name="MinMinVersion"></ATT>
+      <ATT name="MinBinVersionCompatibility"></ATT>
+      <ATT name="JavaClassName"></ATT>
+      <ATT name="Name"><![CDATA[LocalModule]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedPropertyType">
+        <COMPID name="Cargo" mc="Infrastructure.EnumeratedPropertyType" uid="1dabdfbc-7c90-4b54-8eae-3022be2ded2b"/>
+        <COMPID name="StatusVendedor" mc="Infrastructure.EnumeratedPropertyType" uid="a236e24d-6acd-42bf-92b2-e5b722384e46"/>
+        <COMPID name="StatusProduto" mc="Infrastructure.EnumeratedPropertyType" uid="4f355043-9397-424a-8259-2510bc6c4fe9"/>
+      </COMP>
+      <COMP relation="OwnedProfile">
+        <COMPID name="LocalProfile" mc="Infrastructure.Profile" uid="6695a8a9-3cd8-4d91-8537-868fbf07e7bf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="oid" mc="Infrastructure.Stereotype" uid="8a86259b-399f-4f70-af2d-b3eb2d2759be"/>
+        <ID name="Enum Constant" mc="Infrastructure.Stereotype" uid="623598e5-c8c8-4867-85ef-97e50d5d178b"/>
+        <ID name="EnumCargo" mc="Infrastructure.Stereotype" uid="f06836ac-3440-4e7c-8469-4c477e28d9d8"/>
+        <ID name="EnumStatusVendedor" mc="Infrastructure.Stereotype" uid="8a36ea32-6cf0-48e3-96db-c35dd4ba15ed"/>
+        <ID name="EnumStatusProduto" mc="Infrastructure.Stereotype" uid="305f5656-1bec-4d51-9394-40e9ed4bded4"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

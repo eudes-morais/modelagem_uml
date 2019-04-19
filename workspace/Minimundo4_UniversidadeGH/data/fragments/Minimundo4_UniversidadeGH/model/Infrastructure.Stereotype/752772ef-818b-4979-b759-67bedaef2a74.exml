@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TipoProfessor" version="4">
+  <OBJECT>
+    <ID name="TipoProfessor" mc="Infrastructure.Stereotype" uid="752772ef-818b-4979-b759-67bedaef2a74"/>
+    <PID name="LocalProfile" mc="Infrastructure.Profile" uid="9085adc2-0044-4f04-b63e-46c684d8f28c"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[TipoProfessor]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.ModelElement]]></ATT>
+      <ATT name="Name"><![CDATA[TipoProfessor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTable">
+        <COMPID name="TableTipoProfessor" mc="Infrastructure.PropertyTableDefinition" uid="54c1d405-30b2-4c65-a495-62151bb5a827"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

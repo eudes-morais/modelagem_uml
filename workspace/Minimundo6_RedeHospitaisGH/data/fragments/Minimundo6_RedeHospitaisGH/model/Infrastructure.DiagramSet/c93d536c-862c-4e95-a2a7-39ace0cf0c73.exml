@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Minimundo6_RedeHospitaisGH" version="4">
+  <OBJECT>
+    <ID name="Minimundo6_RedeHospitaisGH" mc="Infrastructure.DiagramSet" uid="c93d536c-862c-4e95-a2a7-39ace0cf0c73"/>
+    <PID name="Minimundo6_RedeHospitaisGH" mc="Standard.Project" uid="cde45f8f-3a0c-43d0-a494-d5ea2987b8b5"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Minimundo6_RedeHospitaisGH]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

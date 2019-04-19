@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Minimundo7_ControlePedidosGH" version="4">
+  <OBJECT>
+    <ID name="Minimundo7_ControlePedidosGH" mc="Infrastructure.DiagramSet" uid="2c1470ac-80b6-4415-813d-b0f9cefc6080"/>
+    <PID name="Minimundo7_ControlePedidosGH" mc="Standard.Project" uid="28eb6798-ed0f-42ac-ac94-1bf83293f525"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Minimundo7_ControlePedidosGH]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

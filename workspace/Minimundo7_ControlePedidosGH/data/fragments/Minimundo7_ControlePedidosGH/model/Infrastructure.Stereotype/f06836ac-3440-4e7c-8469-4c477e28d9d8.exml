@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EnumCargo" version="4">
+  <OBJECT>
+    <ID name="EnumCargo" mc="Infrastructure.Stereotype" uid="f06836ac-3440-4e7c-8469-4c477e28d9d8"/>
+    <PID name="LocalProfile" mc="Infrastructure.Profile" uid="6695a8a9-3cd8-4d91-8537-868fbf07e7bf"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[EnumCargo]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.ModelElement]]></ATT>
+      <ATT name="Name"><![CDATA[EnumCargo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTable">
+        <COMPID name="TableCargo" mc="Infrastructure.PropertyTableDefinition" uid="107a940f-74bc-4d6c-8d4c-3b9e5d436eec"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

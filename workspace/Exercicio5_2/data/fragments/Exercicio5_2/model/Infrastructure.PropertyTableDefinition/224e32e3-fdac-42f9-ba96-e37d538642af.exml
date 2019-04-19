@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TableEstadoPagamento" version="4">
+  <OBJECT>
+    <ID name="TableEstadoPagamento" mc="Infrastructure.PropertyTableDefinition" uid="224e32e3-fdac-42f9-ba96-e37d538642af"/>
+    <PID name="enumEstadoPagamento" mc="Infrastructure.Stereotype" uid="074f9bfb-2780-42a6-a0f2-7797feb2750b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[TableEstadoPagamento]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Owned">
+        <OBJECT>
+          <ID name="EstadoPagamento" mc="Infrastructure.PropertyDefinition" uid="b1081b90-564b-4dd4-beed-98eb10575851"/>
+          <ATTRIBUTES>
+            <ATT name="IsEditable">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[EstadoPagamento]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <ID name="EnumEstadoPagamento" mc="Infrastructure.EnumeratedPropertyType" uid="470b1f34-a681-43bb-a0e7-24abe90d809c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EnumSexo" version="4">
+  <OBJECT>
+    <ID name="EnumSexo" mc="Infrastructure.Stereotype" uid="b99f213e-236a-481e-bc83-fb06d8309217"/>
+    <PID name="LocalProfile" mc="Infrastructure.Profile" uid="6d92faf8-3c01-404e-9f4f-f4f22fa95bea"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[EnumSexo]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.ModelElement]]></ATT>
+      <ATT name="Name"><![CDATA[EnumSexo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTable">
+        <COMPID name="TableSexo" mc="Infrastructure.PropertyTableDefinition" uid="cb9ae227-e1e4-407b-9e76-8a36fbbaea07"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

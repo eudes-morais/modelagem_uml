@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Rede Social" version="4">
+  <OBJECT>
+    <ID name="Rede Social" mc="Standard.Project" uid="93f1de0b-0fae-4ee2-9f4d-122b1924157b"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Rede Social]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="rede social" mc="Standard.Package" uid="d01bf627-4405-43ab-a3b6-c208f7e3460b"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Rede Social" mc="Infrastructure.DiagramSet" uid="0ac3bcf8-648a-4f09-b7d2-c1c635d73c40"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,719 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="campeonato de handebol" version="4">
+  <OBJECT>
+    <ID name="campeonato de handebol" mc="Standard.Package" uid="a099c744-2fe3-4a3a-97ac-8b8c3666d143"/>
+    <PID name="Campeonato de Handebol" mc="Standard.Project" uid="a79f8b91-599f-4999-a8d3-2abae9820c82"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[campeonato de handebol]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Declared">
+        <OBJECT>
+          <ID name="c1" mc="Standard.Instance" uid="445f5983-bdc3-4222-b6aa-de0e38efe66f"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[c1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Campeonato" mc="Standard.Class" uid="35248451-4f9d-4b46-8b99-68e2482233af"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codCampeonato" mc="Standard.AttributeLink" uid="011ba501-1e5e-4267-b65a-822b3cc54798"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codCampeonato]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codCampeonato" mc="Standard.Attribute" uid="b5c571bd-5087-44c4-8213-af3cc6f929db"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ano" mc="Standard.AttributeLink" uid="388fa58a-342d-4f1b-beb2-bf9a32b7bff9"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[2019]]></ATT>
+                  <ATT name="Name"><![CDATA[ano]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="ano" mc="Standard.Attribute" uid="02893f2e-1bd9-4ca4-a9b6-68a4df3d1f42"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="ecf4994d-e695-46fe-84a5-56d711de7b79"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Campeonato Novo]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="5d6776d6-b09b-4dd5-b49d-331ee7591a1a"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="p1" mc="Standard.Instance" uid="a39f1801-74ef-435d-bf50-ff78db4799dd"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[p1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Partida" mc="Standard.Class" uid="9d9bad15-0f8d-4031-9d38-f80c5f865424"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codPartida" mc="Standard.AttributeLink" uid="f5c0a60b-df06-428b-a8cb-09703a9ff8e1"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codPartida]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codPartida" mc="Standard.Attribute" uid="a914de2d-4ccf-4500-bac9-b712ede60f35"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="dataPartida" mc="Standard.AttributeLink" uid="73489723-b838-42a7-9645-d7935b2cacb9"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[24/02/2019]]></ATT>
+                  <ATT name="Name"><![CDATA[dataPartida]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="dataPartida" mc="Standard.Attribute" uid="a92eff9a-b24c-4218-8f29-6209e5db4305"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="placarMandante" mc="Standard.AttributeLink" uid="1dc904c4-f2a0-47fa-9696-b27b6df7eb63"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[2]]></ATT>
+                  <ATT name="Name"><![CDATA[placarMandante]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="placarMandante" mc="Standard.Attribute" uid="ad0f3af4-9034-4293-9ebb-7d7702e95665"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="placarVisitante" mc="Standard.AttributeLink" uid="28a98687-1c0b-44e3-b5dd-228b87583a63"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[0]]></ATT>
+                  <ATT name="Name"><![CDATA[placarVisitante]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="placarVisitante" mc="Standard.Attribute" uid="9a18d986-4778-4383-904c-4b949a630331"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="p2" mc="Standard.Instance" uid="9dc4bdab-c348-48ad-b53e-8b8f518d6269"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[p2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Partida" mc="Standard.Class" uid="9d9bad15-0f8d-4031-9d38-f80c5f865424"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codPartida" mc="Standard.AttributeLink" uid="45fc6d78-9267-40c3-bb51-5b42b50fd0d6"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[2]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codPartida]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codPartida" mc="Standard.Attribute" uid="a914de2d-4ccf-4500-bac9-b712ede60f35"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="dataPartida" mc="Standard.AttributeLink" uid="ef7e0ad4-96e5-4dba-9911-6e397daef094"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[03/03/2019]]></ATT>
+                  <ATT name="Name"><![CDATA[dataPartida]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="dataPartida" mc="Standard.Attribute" uid="a92eff9a-b24c-4218-8f29-6209e5db4305"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="placarMandante" mc="Standard.AttributeLink" uid="e55cc4ea-b03c-4170-9f4c-0cc50759f01f"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[placarMandante]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="placarMandante" mc="Standard.Attribute" uid="ad0f3af4-9034-4293-9ebb-7d7702e95665"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="placarVisitante" mc="Standard.AttributeLink" uid="02a73985-564d-465e-adf0-b71e3b9236fe"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[placarVisitante]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="placarVisitante" mc="Standard.Attribute" uid="9a18d986-4778-4383-904c-4b949a630331"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="t1" mc="Standard.Instance" uid="6460b4cb-d315-4533-8e1a-9c7e6147b679"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[t1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Time" mc="Standard.Class" uid="0a061484-210b-4800-a690-7c11beb8c584"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codTime" mc="Standard.AttributeLink" uid="bf4c33ee-8973-4109-8a53-676b9cd2c911"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codTime]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codTime" mc="Standard.Attribute" uid="355fc002-0cdc-4d34-a1ee-97f2da54d4ac"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="84c7860e-9982-48d3-8391-ff4471825126"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Vasco da Gama]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="e78cdc9c-2b69-4347-98ac-c980f67a3197"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="t2" mc="Standard.Instance" uid="32cd785a-0b3e-4adb-872e-b861af52cc32"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[t2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Time" mc="Standard.Class" uid="0a061484-210b-4800-a690-7c11beb8c584"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codTime" mc="Standard.AttributeLink" uid="b07cbbed-c614-4b5d-91fa-f1e83c05c206"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[2]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codTime]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codTime" mc="Standard.Attribute" uid="355fc002-0cdc-4d34-a1ee-97f2da54d4ac"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="fa5116ab-67fd-4022-83c1-e31f373c361e"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Coritiba]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="e78cdc9c-2b69-4347-98ac-c980f67a3197"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="j1" mc="Standard.Instance" uid="9e305793-120a-4f2f-af6a-f943ec60ff9b"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[j1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Jogador" mc="Standard.Class" uid="adadb705-7545-4a83-9014-67c64d353614"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codJogador" mc="Standard.AttributeLink" uid="dc168725-53a9-4cab-b041-f35f2fd559f7"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codJogador]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codJogador" mc="Standard.Attribute" uid="60609201-ef5d-46ad-9fa6-f7bba80db9e5"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="0e07fbe6-6dd0-4ea9-8036-c19356b14a8f"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Romário]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="65c3654b-307a-4204-84bc-cdd3275eca4d"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="dataNascimento" mc="Standard.AttributeLink" uid="ffd2d789-122c-48e9-bf5b-86b60fbcbe1b"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[10/01/1970]]></ATT>
+                  <ATT name="Name"><![CDATA[dataNascimento]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="dataNascimento" mc="Standard.Attribute" uid="8d755cf2-806c-4797-997f-bc7f8ec47843"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="genero" mc="Standard.AttributeLink" uid="7a7ae1b8-3ea3-4d8c-9e35-453fc9a4683c"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Masculino]]></ATT>
+                  <ATT name="Name"><![CDATA[genero]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="genero" mc="Standard.Attribute" uid="c3e0cd05-5c0c-4a71-8126-c3a60dcad1b5"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="altura" mc="Standard.AttributeLink" uid="2af7ae63-30ba-4668-b69c-7ec0448e4ac1"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[1,64]]></ATT>
+                  <ATT name="Name"><![CDATA[altura]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="altura" mc="Standard.Attribute" uid="27d43f2c-5b61-4120-8340-359dcc91fa69"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="j2" mc="Standard.Instance" uid="005e049b-6795-4743-b37b-b25fd552b7c9"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[j2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Jogador" mc="Standard.Class" uid="adadb705-7545-4a83-9014-67c64d353614"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codJogador" mc="Standard.AttributeLink" uid="47948c7d-2941-48f2-938d-5cd9c9c9dc2e"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[2]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codJogador]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codJogador" mc="Standard.Attribute" uid="60609201-ef5d-46ad-9fa6-f7bba80db9e5"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="e135ffce-4121-4998-bc4c-9eb3878ce83e"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Max Lopez]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="65c3654b-307a-4204-84bc-cdd3275eca4d"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="dataNascimento" mc="Standard.AttributeLink" uid="385c5189-8ec5-49d2-9394-105dc8d07de0"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[10/01/1990]]></ATT>
+                  <ATT name="Name"><![CDATA[dataNascimento]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="dataNascimento" mc="Standard.Attribute" uid="8d755cf2-806c-4797-997f-bc7f8ec47843"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="genero" mc="Standard.AttributeLink" uid="b958fe64-ade2-4b7b-9e3a-5e35ac6924ec"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Masculino]]></ATT>
+                  <ATT name="Name"><![CDATA[genero]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="genero" mc="Standard.Attribute" uid="c3e0cd05-5c0c-4a71-8126-c3a60dcad1b5"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="altura" mc="Standard.AttributeLink" uid="3500114f-efee-435a-89a2-d9287e41dc32"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[1,85]]></ATT>
+                  <ATT name="Name"><![CDATA[altura]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="altura" mc="Standard.Attribute" uid="27d43f2c-5b61-4120-8340-359dcc91fa69"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="j3" mc="Standard.Instance" uid="c21ee2d0-d70c-4520-b747-098cdc49dda8"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[j3]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Jogador" mc="Standard.Class" uid="adadb705-7545-4a83-9014-67c64d353614"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codJogador" mc="Standard.AttributeLink" uid="80a5b670-ed1e-4575-946e-cfb64a7ab23c"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[3]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codJogador]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codJogador" mc="Standard.Attribute" uid="60609201-ef5d-46ad-9fa6-f7bba80db9e5"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="498c284d-16f3-4e9b-81ba-fa50fd398baa"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Alex]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="65c3654b-307a-4204-84bc-cdd3275eca4d"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="dataNascimento" mc="Standard.AttributeLink" uid="74fc0495-e6fa-49f0-bc55-d1dbee6736b0"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[10/01/1977]]></ATT>
+                  <ATT name="Name"><![CDATA[dataNascimento]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="dataNascimento" mc="Standard.Attribute" uid="8d755cf2-806c-4797-997f-bc7f8ec47843"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="genero" mc="Standard.AttributeLink" uid="9ad74b47-1ce3-4bd7-b44e-78a328cea896"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Masculino]]></ATT>
+                  <ATT name="Name"><![CDATA[genero]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="genero" mc="Standard.Attribute" uid="c3e0cd05-5c0c-4a71-8126-c3a60dcad1b5"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="altura" mc="Standard.AttributeLink" uid="6330786a-3ed3-495d-ae6b-63d6d0c87199"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[1,71]]></ATT>
+                  <ATT name="Name"><![CDATA[altura]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="altura" mc="Standard.Attribute" uid="27d43f2c-5b61-4120-8340-359dcc91fa69"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="j4" mc="Standard.Instance" uid="16fb861f-32e1-49da-bc3e-df481f97c8d6"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[j4]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Jogador" mc="Standard.Class" uid="adadb705-7545-4a83-9014-67c64d353614"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codJogador" mc="Standard.AttributeLink" uid="415830b3-0162-4198-a042-479b68ab96a5"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[4]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codJogador]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codJogador" mc="Standard.Attribute" uid="60609201-ef5d-46ad-9fa6-f7bba80db9e5"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="ab5444de-3cab-4a5b-b2fe-36292af20b44"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Gladiador]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="65c3654b-307a-4204-84bc-cdd3275eca4d"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="dataNascimento" mc="Standard.AttributeLink" uid="8848c5fd-b226-4155-8ea6-b45752a12c79"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[10/01/1993]]></ATT>
+                  <ATT name="Name"><![CDATA[dataNascimento]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="dataNascimento" mc="Standard.Attribute" uid="8d755cf2-806c-4797-997f-bc7f8ec47843"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="genero" mc="Standard.AttributeLink" uid="0f7923ad-1f4a-4625-a08c-317b300abbce"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Masculino]]></ATT>
+                  <ATT name="Name"><![CDATA[genero]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="genero" mc="Standard.Attribute" uid="c3e0cd05-5c0c-4a71-8126-c3a60dcad1b5"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="altura" mc="Standard.AttributeLink" uid="1a570147-e92d-4285-8a12-5d5c1b8e824f"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[1,77]]></ATT>
+                  <ATT name="Name"><![CDATA[altura]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="altura" mc="Standard.Attribute" uid="27d43f2c-5b61-4120-8340-359dcc91fa69"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Jogador" mc="Standard.Class" uid="adadb705-7545-4a83-9014-67c64d353614"/>
+        <COMPID name="Time" mc="Standard.Class" uid="0a061484-210b-4800-a690-7c11beb8c584"/>
+        <COMPID name="Partida" mc="Standard.Class" uid="9d9bad15-0f8d-4031-9d38-f80c5f865424"/>
+        <COMPID name="Estadio" mc="Standard.Class" uid="79de8b66-bdfe-4e23-a657-97fd45d9ea60"/>
+        <COMPID name="Campeonato" mc="Standard.Class" uid="35248451-4f9d-4b46-8b99-68e2482233af"/>
+        <COMPID name="EndereçoEstadio" mc="Standard.Class" uid="f93d9316-e5d4-4016-b775-521314766cb7"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="CampeonatoHandebol" mc="Standard.ClassDiagram" uid="ab1914e7-277d-4f8a-a1dd-d2e7de54e347"/>
+        <COMPID name="ObjCampeonatoHandebol" mc="Standard.ObjectDiagram" uid="bd5438e3-effa-44d3-a732-57170c2090f8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

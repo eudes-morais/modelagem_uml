@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EnumTipoProfessor" version="4">
+  <OBJECT>
+    <ID name="EnumTipoProfessor" mc="Infrastructure.EnumeratedPropertyType" uid="eb95c3ae-2fe7-40c5-8bb8-3d76157b214b"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="eb9eb4ad-e4df-4eb1-876b-818e11ae5c74"/>
+    <ATTRIBUTES>
+      <ATT name="BaseType">Enumerate</ATT>
+      <ATT name="Name"><![CDATA[EnumTipoProfessor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Litteral">
+        <OBJECT>
+          <ID name="Titular" mc="Infrastructure.PropertyEnumerationLitteral" uid="98dc1d3a-1a7a-496e-940f-d25cbca843ea"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Titular]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Adjunto" mc="Infrastructure.PropertyEnumerationLitteral" uid="601a9f79-d58d-4774-a3df-3685807bd103"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Adjunto]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

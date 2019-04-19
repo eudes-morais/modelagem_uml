@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TableTipoProfessor" version="4">
+  <OBJECT>
+    <ID name="TableTipoProfessor" mc="Infrastructure.PropertyTableDefinition" uid="54c1d405-30b2-4c65-a495-62151bb5a827"/>
+    <PID name="TipoProfessor" mc="Infrastructure.Stereotype" uid="752772ef-818b-4979-b759-67bedaef2a74"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[TableTipoProfessor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Owned">
+        <OBJECT>
+          <ID name="TipoProfessor" mc="Infrastructure.PropertyDefinition" uid="04e4760b-183c-41ba-83b1-52209e68b2b0"/>
+          <ATTRIBUTES>
+            <ATT name="IsEditable">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[TipoProfessor]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <ID name="EnumTipoProfessor" mc="Infrastructure.EnumeratedPropertyType" uid="eb95c3ae-2fe7-40c5-8bb8-3d76157b214b"/>
+            </LINK>
+            <LINK relation="Extension">
+              <ID name="TipoProfessor" mc="Infrastructure.Stereotype" uid="752772ef-818b-4979-b759-67bedaef2a74"/>
+            </LINK>
+            <COMP relation="Properties">
+              <OBJECT>
+                <ID name="752772ef-818b-4979-b759-67bedaef2a74" mc="Infrastructure.PropertyTable" uid="d3b352aa-8412-40d5-b5c1-afb9eec59efe"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[752772ef-818b-4979-b759-67bedaef2a74]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Apr 09 15:42:04 BRT 2019
+TipoProfessor=Titular
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

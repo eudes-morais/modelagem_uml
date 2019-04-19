@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="minimundo_1" version="4">
+  <OBJECT>
+    <ID name="minimundo_1" mc="Standard.Package" uid="0221580c-d262-4924-bb77-e606f7102cb8"/>
+    <PID name="Minimundo_1" mc="Standard.Project" uid="09d7a49d-9478-411b-918c-0d9d7b5aadeb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[minimundo_1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Apartamento" mc="Standard.Class" uid="646e5934-76cd-4295-8bd6-e19fc0e2659f"/>
+        <COMPID name="Cidade" mc="Standard.Class" uid="b9aafecd-8a7b-4e8c-aa9b-571875b7e1a7"/>
+        <COMPID name="Classificacao" mc="Standard.Class" uid="87637e8b-9895-4210-bc1b-f3f6087cce1e"/>
+        <COMPID name="Diaria" mc="Standard.Class" uid="68f1ef20-cd8a-4bd7-9202-4b7c1421afec"/>
+        <COMPID name="Endereco" mc="Standard.Class" uid="8902e7cd-13a3-40c0-bd67-71605f5428ae"/>
+        <COMPID name="Estado" mc="Standard.Class" uid="4e347eec-8b93-4d59-b9ec-a1edbc14f87e"/>
+        <COMPID name="Hospede" mc="Standard.Class" uid="b75039c9-a774-44d2-8bd2-28a7622b37b8"/>
+        <COMPID name="Hotel" mc="Standard.Class" uid="d3129985-10b7-426f-b36a-f87b8beb4f66"/>
+        <COMPID name="Reserva" mc="Standard.Class" uid="2fe73b73-2a10-486c-b6bf-88d8b8c863af"/>
+        <COMPID name="Hospedagem" mc="Standard.Class" uid="fc13d141-6fed-4204-a650-ff3b76cc0a55"/>
+        <COMPID name="Telefone" mc="Standard.Class" uid="a3e68c20-80b1-4ad8-800d-47fa837218e5"/>
+        <COMPID name="Desconto" mc="Standard.Class" uid="d641919e-5dc5-46bd-bdf1-855b45bd1e85"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Minimundo_1" mc="Standard.ClassDiagram" uid="5101745b-c803-4ec4-a77b-bc13bfa54794"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

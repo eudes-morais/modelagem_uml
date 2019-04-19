@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Cidades" version="4">
+  <OBJECT>
+    <ID name="Cidades" mc="Standard.Project" uid="44e36c44-14e9-455c-b52c-cc675c383c94"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Cidades]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="cidades" mc="Standard.Package" uid="64095b08-98b5-48e1-9911-89f229dba0dd"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Cidades" mc="Infrastructure.DiagramSet" uid="67542d78-636a-4012-9076-0204c949a28a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

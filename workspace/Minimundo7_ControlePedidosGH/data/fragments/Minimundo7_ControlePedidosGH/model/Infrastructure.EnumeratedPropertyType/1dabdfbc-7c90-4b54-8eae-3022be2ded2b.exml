@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Cargo" version="4">
+  <OBJECT>
+    <ID name="Cargo" mc="Infrastructure.EnumeratedPropertyType" uid="1dabdfbc-7c90-4b54-8eae-3022be2ded2b"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="897a7e85-9773-4c2f-9e8f-a8b120256adc"/>
+    <ATTRIBUTES>
+      <ATT name="BaseType">Enumerate</ATT>
+      <ATT name="Name"><![CDATA[Cargo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Litteral">
+        <OBJECT>
+          <ID name="Gerente" mc="Infrastructure.PropertyEnumerationLitteral" uid="e411fd3f-3bd4-416f-936b-0c81fe49d2a1"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Gerente]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Vendedor" mc="Infrastructure.PropertyEnumerationLitteral" uid="9ac23b87-199e-476f-9806-8e967684a66a"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Vendedor]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

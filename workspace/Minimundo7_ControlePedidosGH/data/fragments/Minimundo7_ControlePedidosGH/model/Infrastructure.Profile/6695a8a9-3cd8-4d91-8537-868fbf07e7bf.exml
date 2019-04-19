@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LocalProfile" version="4">
+  <OBJECT>
+    <ID name="LocalProfile" mc="Infrastructure.Profile" uid="6695a8a9-3cd8-4d91-8537-868fbf07e7bf"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="897a7e85-9773-4c2f-9e8f-a8b120256adc"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[LocalProfile]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="oid" mc="Infrastructure.Stereotype" uid="8a86259b-399f-4f70-af2d-b3eb2d2759be"/>
+        <COMPID name="Enum Constant" mc="Infrastructure.Stereotype" uid="623598e5-c8c8-4867-85ef-97e50d5d178b"/>
+        <COMPID name="EnumCargo" mc="Infrastructure.Stereotype" uid="f06836ac-3440-4e7c-8469-4c477e28d9d8"/>
+        <COMPID name="EnumStatusVendedor" mc="Infrastructure.Stereotype" uid="8a36ea32-6cf0-48e3-96db-c35dd4ba15ed"/>
+        <COMPID name="EnumStatusProduto" mc="Infrastructure.Stereotype" uid="305f5656-1bec-4d51-9394-40e9ed4bded4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

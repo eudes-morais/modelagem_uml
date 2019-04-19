@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LocalModule" version="4">
+  <OBJECT>
+    <ID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="90e49c68-cb3c-4646-bba9-418ea382ea51"/>
+    <ATTRIBUTES>
+      <ATT name="LicenseKey">0</ATT>
+      <ATT name="MajVersion">0</ATT>
+      <ATT name="MinVersion">0</ATT>
+      <ATT name="MinMinVersion"></ATT>
+      <ATT name="MinBinVersionCompatibility"></ATT>
+      <ATT name="JavaClassName"></ATT>
+      <ATT name="Name"><![CDATA[LocalModule]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedPropertyType">
+        <COMPID name="Enumerated" mc="Infrastructure.EnumeratedPropertyType" uid="b97b3d96-37e3-4015-8e16-31cb09d9e418"/>
+        <COMPID name="EnumEstadoPagamento" mc="Infrastructure.EnumeratedPropertyType" uid="470b1f34-a681-43bb-a0e7-24abe90d809c"/>
+      </COMP>
+      <COMP relation="OwnedProfile">
+        <COMPID name="LocalProfile" mc="Infrastructure.Profile" uid="4a0927cb-de7d-4136-9c6f-a10c88324eda"/>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="oid" mc="Infrastructure.Stereotype" uid="0c2a04bc-fd48-4afa-852a-83ea271a30b7"/>
+        <ID name="enum constant" mc="Infrastructure.Stereotype" uid="636dcc98-de52-4534-a7e8-fd787b315c92"/>
+        <ID name="weak" mc="Infrastructure.Stereotype" uid="5f7637a6-367e-4d91-b788-4b7b4e51840e"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

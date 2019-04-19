@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="exercício5_1" version="4">
+  <OBJECT>
+    <ID name="exercício5_1" mc="Standard.Package" uid="0098b820-0674-471f-af6a-73a178296012"/>
+    <PID name="Exercício5_1" mc="Standard.Project" uid="1b368c70-7435-434d-8252-6f5a3a533408"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[exercício5_1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Sede" mc="Standard.Class" uid="27ce60a2-a127-494d-836d-b88ba8e94a14"/>
+        <COMPID name="Localidade" mc="Standard.Class" uid="13dc50e1-c8ac-488d-9191-128b9f211a0f"/>
+        <COMPID name="Locacao" mc="Standard.Class" uid="777c90f6-3d67-4068-b9a0-4ccef499e1dc"/>
+        <COMPID name="LocacaoDiaria" mc="Standard.Class" uid="f8335b3c-eaf4-49cc-8eba-f28f3e56e2ab"/>
+        <COMPID name="LocacaoLongoPeriodo" mc="Standard.Class" uid="7c0d6eb4-3672-404e-b063-5f460209a74d"/>
+        <COMPID name="Carro" mc="Standard.Class" uid="642d3987-ad41-4b56-9fa6-c42c7d93dd71"/>
+        <COMPID name="Cor" mc="Standard.Class" uid="485c7277-5fb9-42c9-936c-cb8d2a6b132b"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="f21b1646-358e-4963-8e4c-8d96b45c8bf0"/>
+        <COMPID name="Telefone" mc="Standard.Class" uid="b1487964-5e15-424a-a505-a44e72250ec8"/>
+        <COMPID name="Categoria" mc="Standard.Class" uid="2cc31c5b-4654-422a-87ff-092065b9b6f7"/>
+        <COMPID name="Endereco" mc="Standard.Class" uid="344a3248-eacc-4748-8d6c-1b7111decd28"/>
+        <COMPID name="Cidade" mc="Standard.Class" uid="47558a43-3839-49a2-b71c-3a3bd82a26e6"/>
+        <COMPID name="Estado" mc="Standard.Class" uid="40aa4392-f1a7-47c8-bfb4-7ff569569231"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Exercicio5_1" mc="Standard.ClassDiagram" uid="8ab01b80-5cdf-4cb6-a821-59308258b795"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

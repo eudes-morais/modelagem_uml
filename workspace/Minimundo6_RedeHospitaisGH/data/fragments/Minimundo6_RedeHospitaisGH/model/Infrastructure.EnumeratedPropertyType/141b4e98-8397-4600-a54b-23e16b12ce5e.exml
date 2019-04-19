@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Status" version="4">
+  <OBJECT>
+    <ID name="Status" mc="Infrastructure.EnumeratedPropertyType" uid="141b4e98-8397-4600-a54b-23e16b12ce5e"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="9d0d32b3-b3c7-4a9e-9f7c-51186c5a2104"/>
+    <ATTRIBUTES>
+      <ATT name="BaseType">Enumerate</ATT>
+      <ATT name="Name"><![CDATA[Status]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Litteral">
+        <OBJECT>
+          <ID name="Indisponível" mc="Infrastructure.PropertyEnumerationLitteral" uid="0a071069-69d5-4359-a532-48dbe1e0424e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Indisponível]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Disponível" mc="Infrastructure.PropertyEnumerationLitteral" uid="705f47ac-9903-4f7e-8a34-54bac7d0ac6b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Disponível]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

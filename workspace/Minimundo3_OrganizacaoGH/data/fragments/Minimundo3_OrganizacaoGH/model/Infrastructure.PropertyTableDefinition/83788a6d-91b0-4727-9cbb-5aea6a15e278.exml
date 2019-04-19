@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TableStatus" version="4">
+  <OBJECT>
+    <ID name="TableStatus" mc="Infrastructure.PropertyTableDefinition" uid="83788a6d-91b0-4727-9cbb-5aea6a15e278"/>
+    <PID name="EnumStatus" mc="Infrastructure.Stereotype" uid="9d6626fe-d75a-425b-9b31-406c09f5f95f"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[TableStatus]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Owned">
+        <OBJECT>
+          <ID name="Status" mc="Infrastructure.PropertyDefinition" uid="e31fe358-798a-4a82-be32-381ddbc76162"/>
+          <ATTRIBUTES>
+            <ATT name="IsEditable">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[Status]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <ID name="EnumStatus" mc="Infrastructure.EnumeratedPropertyType" uid="980e0718-66f5-4206-96c6-c77bcbf9f28a"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

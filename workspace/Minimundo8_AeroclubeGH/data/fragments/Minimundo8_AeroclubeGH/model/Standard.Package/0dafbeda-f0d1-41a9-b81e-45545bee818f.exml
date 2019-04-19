@@ -1,0 +1,201 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="minimundo8_aeroclubegh" version="4">
+  <OBJECT>
+    <ID name="minimundo8_aeroclubegh" mc="Standard.Package" uid="0dafbeda-f0d1-41a9-b81e-45545bee818f"/>
+    <PID name="Minimundo8_AeroclubeGH" mc="Standard.Project" uid="b74137d7-a0ca-4fa2-b84c-b7d10adaaa8d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[minimundo8_aeroclubegh]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Socio" mc="Standard.Class" uid="22c72b01-f942-4286-b993-1a39a7801bfe"/>
+        <COMPID name="Endereco" mc="Standard.Class" uid="b0246c87-ea96-4b72-8f78-6dc42796e3cf"/>
+        <COMPID name="Telefone" mc="Standard.Class" uid="2f036bb3-95ce-4086-9d56-df0c0c8b6bf7"/>
+        <COMPID name="Cidade" mc="Standard.Class" uid="bf999734-1873-47b5-a5d1-f4e9d7a2a70c"/>
+        <COMPID name="Estado" mc="Standard.Class" uid="b617e5f3-9720-4811-ac07-9a27af442352"/>
+        <COMPID name="Piloto" mc="Standard.Class" uid="e1c3ac4d-1452-44c6-b4db-7156e84200a1"/>
+        <COMPID name="Instrutor" mc="Standard.Class" uid="bdac430c-de43-47be-bdfc-b170df8a00a1"/>
+        <COMPID name="Aluno" mc="Standard.Class" uid="af50d521-5f05-4fa3-993f-48682e9108c2"/>
+        <COMPID name="CursoEspecial" mc="Standard.Class" uid="e66cd846-fdbb-49f0-a928-8623b0f69e79"/>
+        <OBJECT>
+          <ID name="Status" mc="Standard.Enumeration" uid="791b1ad3-067e-4da4-869b-723d42d25002"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Status]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedAttribute">
+              <OBJECT>
+                <ID name="Excluído" mc="Standard.Attribute" uid="f54baacd-8e7e-45c1-aaa1-b71e45a34539"/>
+                <ATTRIBUTES>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="TargetIsClass">false</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[Excluído]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                  </LINK>
+                  <LINK relation="Extension">
+                    <ID name="Enum Constant" mc="Infrastructure.Stereotype" uid="f68f2954-6fed-4d94-9bf5-bdb4ab0fee03"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Não excluído" mc="Standard.Attribute" uid="995ffbc1-ec28-4b35-b8ea-882dd7285e04"/>
+                <ATTRIBUTES>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="TargetIsClass">false</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[Não excluído]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                  </LINK>
+                  <LINK relation="Extension">
+                    <ID name="Enum Constant" mc="Infrastructure.Stereotype" uid="f68f2954-6fed-4d94-9bf5-bdb4ab0fee03"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Situação" mc="Standard.Attribute" uid="7ca07065-9238-43dd-a2e7-f28f92a46ef3"/>
+                <ATTRIBUTES>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="TargetIsClass">false</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[Situação]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                  </LINK>
+                  <LINK relation="Extension">
+                    <ID name="Enum Constant" mc="Infrastructure.Stereotype" uid="f68f2954-6fed-4d94-9bf5-bdb4ab0fee03"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Pilotagem" mc="Standard.Class" uid="64091eec-6d56-48a8-8f45-a05c95bf965d"/>
+        <OBJECT>
+          <ID name="GrauAuferido" mc="Standard.Enumeration" uid="b9d99873-86f1-4944-a343-350c8140cf74"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[GrauAuferido]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedAttribute">
+              <OBJECT>
+                <ID name="Aprovado" mc="Standard.Attribute" uid="92b1c1c3-3b0f-46dc-81f5-644934d5da09"/>
+                <ATTRIBUTES>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="TargetIsClass">false</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[Aprovado]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                  </LINK>
+                  <LINK relation="Extension">
+                    <ID name="Enum Constant" mc="Infrastructure.Stereotype" uid="f68f2954-6fed-4d94-9bf5-bdb4ab0fee03"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Reprovado" mc="Standard.Attribute" uid="59cd30ba-ca2d-411e-945c-d9c593137879"/>
+                <ATTRIBUTES>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="TargetIsClass">false</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[Reprovado]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                  </LINK>
+                  <LINK relation="Extension">
+                    <ID name="Enum Constant" mc="Infrastructure.Stereotype" uid="f68f2954-6fed-4d94-9bf5-bdb4ab0fee03"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Aviao" mc="Standard.Class" uid="688e090a-cc3f-43b2-9421-065c9224ded1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="AeroclubeGH" mc="Standard.ClassDiagram" uid="647f384c-d699-4c8f-a5b4-f42899732435"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

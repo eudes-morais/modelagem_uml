@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Minimundo5_LojaGH" version="4">
+  <OBJECT>
+    <ID name="Minimundo5_LojaGH" mc="Standard.Project" uid="845bba5f-518a-40a9-9165-6791f5417ffb"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Minimundo5_LojaGH]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="minimundo5_lojagh" mc="Standard.Package" uid="1eef6bfa-0355-481b-8e9b-3f0c440a9e43"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Minimundo5_LojaGH" mc="Infrastructure.DiagramSet" uid="7efa084a-dcdc-4b48-a665-0247cded4493"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Minimundo8_AeroclubeGH" version="4">
+  <OBJECT>
+    <ID name="Minimundo8_AeroclubeGH" mc="Standard.Project" uid="b74137d7-a0ca-4fa2-b84c-b7d10adaaa8d"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Minimundo8_AeroclubeGH]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="minimundo8_aeroclubegh" mc="Standard.Package" uid="0dafbeda-f0d1-41a9-b81e-45545bee818f"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Minimundo8_AeroclubeGH" mc="Infrastructure.DiagramSet" uid="e435e3a1-beb5-4613-afcc-47e4d028e63d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

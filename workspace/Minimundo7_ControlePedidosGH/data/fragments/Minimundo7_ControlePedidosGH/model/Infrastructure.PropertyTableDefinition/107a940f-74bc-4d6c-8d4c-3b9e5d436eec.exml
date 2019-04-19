@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TableCargo" version="4">
+  <OBJECT>
+    <ID name="TableCargo" mc="Infrastructure.PropertyTableDefinition" uid="107a940f-74bc-4d6c-8d4c-3b9e5d436eec"/>
+    <PID name="EnumCargo" mc="Infrastructure.Stereotype" uid="f06836ac-3440-4e7c-8469-4c477e28d9d8"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[TableCargo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Owned">
+        <OBJECT>
+          <ID name="Cargo" mc="Infrastructure.PropertyDefinition" uid="97c08d84-20c1-4524-bff6-f5058958b1d6"/>
+          <ATTRIBUTES>
+            <ATT name="IsEditable">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[Cargo]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <ID name="Cargo" mc="Infrastructure.EnumeratedPropertyType" uid="1dabdfbc-7c90-4b54-8eae-3022be2ded2b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

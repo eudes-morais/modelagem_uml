@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EnumStatus" version="4">
+  <OBJECT>
+    <ID name="EnumStatus" mc="Infrastructure.EnumeratedPropertyType" uid="980e0718-66f5-4206-96c6-c77bcbf9f28a"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="d017d4b1-a2ea-4f35-a0af-0832a16e17bd"/>
+    <ATTRIBUTES>
+      <ATT name="BaseType">Enumerate</ATT>
+      <ATT name="Name"><![CDATA[EnumStatus]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Litteral">
+        <OBJECT>
+          <ID name="Ativo" mc="Infrastructure.PropertyEnumerationLitteral" uid="d2986f87-24f8-4a15-9896-00a9db9e2cff"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Ativo]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Temporario" mc="Infrastructure.PropertyEnumerationLitteral" uid="366019d2-aeb9-4714-929e-fc7c5f7d140b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Temporario]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Excluido" mc="Infrastructure.PropertyEnumerationLitteral" uid="3fd3816e-2768-4da3-91c6-7928e07771bb"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Excluido]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

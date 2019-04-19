@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Status" version="4">
+  <OBJECT>
+    <ID name="Status" mc="Infrastructure.EnumeratedPropertyType" uid="f437a95c-7631-4723-b985-6c3aa5a45134"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="5b0c223c-d484-4db4-b702-1eddae4f7196"/>
+    <ATTRIBUTES>
+      <ATT name="BaseType">Enumerate</ATT>
+      <ATT name="Name"><![CDATA[Status]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Litteral">
+        <OBJECT>
+          <ID name="Excluído" mc="Infrastructure.PropertyEnumerationLitteral" uid="d00b0673-507d-466d-9a34-b95dac9a0554"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Excluído]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Não excluído" mc="Infrastructure.PropertyEnumerationLitteral" uid="f05aa0b8-8d33-48e6-88df-74f8e1d77faa"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Não excluído]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Situação" mc="Infrastructure.PropertyEnumerationLitteral" uid="7525cbaa-a86f-4f21-a7be-9f8e8707bf27"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Situação]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

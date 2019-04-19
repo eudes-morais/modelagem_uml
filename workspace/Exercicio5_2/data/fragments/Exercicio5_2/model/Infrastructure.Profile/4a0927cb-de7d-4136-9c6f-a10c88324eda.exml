@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LocalProfile" version="4">
+  <OBJECT>
+    <ID name="LocalProfile" mc="Infrastructure.Profile" uid="4a0927cb-de7d-4136-9c6f-a10c88324eda"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="90e49c68-cb3c-4646-bba9-418ea382ea51"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[LocalProfile]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="oid" mc="Infrastructure.Stereotype" uid="0c2a04bc-fd48-4afa-852a-83ea271a30b7"/>
+        <COMPID name="enum" mc="Infrastructure.Stereotype" uid="76edc1a4-5c41-4ab4-85b6-f83a6d164043"/>
+        <COMPID name="enum constant" mc="Infrastructure.Stereotype" uid="636dcc98-de52-4534-a7e8-fd787b315c92"/>
+        <COMPID name="weak" mc="Infrastructure.Stereotype" uid="5f7637a6-367e-4d91-b788-4b7b4e51840e"/>
+        <COMPID name="enumEstadoPagamento" mc="Infrastructure.Stereotype" uid="074f9bfb-2780-42a6-a0f2-7797feb2750b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

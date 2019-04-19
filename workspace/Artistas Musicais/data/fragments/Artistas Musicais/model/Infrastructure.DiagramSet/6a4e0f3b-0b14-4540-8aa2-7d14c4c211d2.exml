@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Artistas Musicais" version="4">
+  <OBJECT>
+    <ID name="Artistas Musicais" mc="Infrastructure.DiagramSet" uid="6a4e0f3b-0b14-4540-8aa2-7d14c4c211d2"/>
+    <PID name="Artistas Musicais" mc="Standard.Project" uid="95295be0-2fa2-4e51-a41a-ff0eb5b5c183"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Artistas Musicais]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

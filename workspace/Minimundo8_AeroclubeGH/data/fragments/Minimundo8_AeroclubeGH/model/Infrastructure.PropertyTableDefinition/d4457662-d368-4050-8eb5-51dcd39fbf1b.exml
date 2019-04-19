@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TableGrauAuferido" version="4">
+  <OBJECT>
+    <ID name="TableGrauAuferido" mc="Infrastructure.PropertyTableDefinition" uid="d4457662-d368-4050-8eb5-51dcd39fbf1b"/>
+    <PID name="EnumGrauAuferido" mc="Infrastructure.Stereotype" uid="52423ed6-8643-42cf-a40a-3253bd7d0f81"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[TableGrauAuferido]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Owned">
+        <OBJECT>
+          <ID name="GrauAuferido" mc="Infrastructure.PropertyDefinition" uid="eb3f84db-0e05-4d2a-b602-9d43706aab1f"/>
+          <ATTRIBUTES>
+            <ATT name="IsEditable">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[GrauAuferido]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <ID name="GrauAuferido" mc="Infrastructure.EnumeratedPropertyType" uid="bb51182a-f0fa-4fd8-aee2-5215215bb866"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TableSexo" version="4">
+  <OBJECT>
+    <ID name="TableSexo" mc="Infrastructure.PropertyTableDefinition" uid="cb9ae227-e1e4-407b-9e76-8a36fbbaea07"/>
+    <PID name="EnumSexo" mc="Infrastructure.Stereotype" uid="b99f213e-236a-481e-bc83-fb06d8309217"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[TableSexo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Owned">
+        <OBJECT>
+          <ID name="Sexo" mc="Infrastructure.PropertyDefinition" uid="3c4984c1-0fec-4de9-b3c4-5a16fa105ec9"/>
+          <ATTRIBUTES>
+            <ATT name="IsEditable">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[Sexo]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <ID name="EnumSexo" mc="Infrastructure.EnumeratedPropertyType" uid="67ca40dd-45dd-41ca-b49b-1c106d9cbda2"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="minimundo2_locadoragh" version="4">
+  <OBJECT>
+    <ID name="minimundo2_locadoragh" mc="Standard.Package" uid="d5f5a034-94f5-492a-8f5c-02f8bc8bd231"/>
+    <PID name="Minimundo2_LocadoraGH" mc="Standard.Project" uid="f3f46421-afe8-4fc8-95bb-cbef2bec426c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[minimundo2_locadoragh]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Cliente" mc="Standard.Class" uid="1a8eefc0-269c-4892-9218-e358b8ac721f"/>
+        <COMPID name="Filme" mc="Standard.Class" uid="28f80e2c-6e7a-467d-9932-8fe88e6ed455"/>
+        <OBJECT>
+          <ID name="Genero" mc="Standard.Enumeration" uid="f5f0ae75-f8fd-4d5b-912b-0200cfecffe9"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Genero]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedAttribute">
+              <OBJECT>
+                <ID name="nome" mc="Standard.Attribute" uid="869bd02d-cb92-4f07-8b82-6df710450389"/>
+                <ATTRIBUTES>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="TargetIsClass">false</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Aluguel" mc="Standard.Class" uid="8e0ee442-56b0-479c-8b96-f92a5a264c00"/>
+        <COMPID name="Fita" mc="Standard.Class" uid="5819e414-60ad-4fef-97ef-17d53a192dc9"/>
+        <COMPID name="Unidades_alugadas" mc="Standard.Class" uid="b8867d39-1297-4e41-b167-6b9f226b4b23"/>
+        <COMPID name="Pagamento" mc="Standard.Class" uid="01661f49-8a8a-4720-8dc9-7563f5eeab4e"/>
+        <COMPID name="Multa" mc="Standard.Class" uid="daa3faa4-93b7-4360-aec7-4402cb24c05a"/>
+        <OBJECT>
+          <ID name="Status" mc="Standard.Enumeration" uid="0b32e8b0-c52f-4b6f-a82e-f36ce82e6607"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Status]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedAttribute">
+              <OBJECT>
+                <ID name="status" mc="Standard.Attribute" uid="b5785def-47bf-4992-a630-e731621950a7"/>
+                <ATTRIBUTES>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="TargetIsClass">false</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"><![CDATA[status]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="LocadoraGH" mc="Standard.ClassDiagram" uid="817d243f-4083-4802-9ad9-cf8aedf99bfd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EnumEstadoPagamento" version="4">
+  <OBJECT>
+    <ID name="EnumEstadoPagamento" mc="Infrastructure.EnumeratedPropertyType" uid="470b1f34-a681-43bb-a0e7-24abe90d809c"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="90e49c68-cb3c-4646-bba9-418ea382ea51"/>
+    <ATTRIBUTES>
+      <ATT name="BaseType">Enumerate</ATT>
+      <ATT name="Name"><![CDATA[EnumEstadoPagamento]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Litteral">
+        <OBJECT>
+          <ID name="Quitado" mc="Infrastructure.PropertyEnumerationLitteral" uid="ee97c992-3e87-4d23-a054-3c0749670877"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Quitado]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Pendente" mc="Infrastructure.PropertyEnumerationLitteral" uid="c8f28098-2ec3-419f-9199-27c67bfed9f1"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Pendente]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Cancelado" mc="Infrastructure.PropertyEnumerationLitteral" uid="f869e63c-abdd-44ea-9929-206456dd9550"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Cancelado]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

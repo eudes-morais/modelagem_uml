@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Campeonato de Handebol" version="4">
+  <OBJECT>
+    <ID name="Campeonato de Handebol" mc="Infrastructure.DiagramSet" uid="a8c61f1a-62a3-429b-8e61-728cf456fba4"/>
+    <PID name="Campeonato de Handebol" mc="Standard.Project" uid="a79f8b91-599f-4999-a8d3-2abae9820c82"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Campeonato de Handebol]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

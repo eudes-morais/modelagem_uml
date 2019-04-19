@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EnumSexo" version="4">
+  <OBJECT>
+    <ID name="EnumSexo" mc="Infrastructure.EnumeratedPropertyType" uid="9ad9f7bf-cde2-4a5b-a780-4eb49b561ca5"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="fb148019-66f9-4f2f-ba65-2712f7e0fe3f"/>
+    <ATTRIBUTES>
+      <ATT name="BaseType">Enumerate</ATT>
+      <ATT name="Name"><![CDATA[EnumSexo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Litteral">
+        <OBJECT>
+          <ID name="Masculino" mc="Infrastructure.PropertyEnumerationLitteral" uid="65ce995a-b48b-472a-95cb-aed1a69d22d2"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Masculino]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Feminino" mc="Infrastructure.PropertyEnumerationLitteral" uid="6594004a-319f-40b6-92ac-2c608a10fa18"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Feminino]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

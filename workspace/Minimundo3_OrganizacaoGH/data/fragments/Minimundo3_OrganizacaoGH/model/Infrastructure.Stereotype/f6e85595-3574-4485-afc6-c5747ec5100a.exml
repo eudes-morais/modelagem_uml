@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Enum Constant" version="4">
+  <OBJECT>
+    <ID name="Enum Constant" mc="Infrastructure.Stereotype" uid="f6e85595-3574-4485-afc6-c5747ec5100a"/>
+    <PID name="LocalProfile" mc="Infrastructure.Profile" uid="6d92faf8-3c01-404e-9f4f-f4f22fa95bea"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[Enum Constant]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.ModelElement]]></ATT>
+      <ATT name="Name"><![CDATA[Enum Constant]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

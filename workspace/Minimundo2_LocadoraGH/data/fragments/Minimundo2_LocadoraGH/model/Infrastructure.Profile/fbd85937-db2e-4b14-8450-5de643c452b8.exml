@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LocalProfile" version="4">
+  <OBJECT>
+    <ID name="LocalProfile" mc="Infrastructure.Profile" uid="fbd85937-db2e-4b14-8450-5de643c452b8"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="139965a3-46bf-436b-9536-90a122a5eb48"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[LocalProfile]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="oid" mc="Infrastructure.Stereotype" uid="45d90ae9-d999-4e89-8355-18c0cbf319f0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

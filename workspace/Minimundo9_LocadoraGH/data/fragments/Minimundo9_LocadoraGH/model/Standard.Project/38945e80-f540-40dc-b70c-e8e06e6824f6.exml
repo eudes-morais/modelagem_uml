@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Minimundo9_LocadoraGH" version="4">
+  <OBJECT>
+    <ID name="Minimundo9_LocadoraGH" mc="Standard.Project" uid="38945e80-f540-40dc-b70c-e8e06e6824f6"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Minimundo9_LocadoraGH]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="minimundo9_locadoragh" mc="Standard.Package" uid="c76833ef-57ea-4bc0-ae62-5ca62e3eab75"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Minimundo9_LocadoraGH" mc="Infrastructure.DiagramSet" uid="0a73af33-f9a3-437c-a368-6b77c471cbc6"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

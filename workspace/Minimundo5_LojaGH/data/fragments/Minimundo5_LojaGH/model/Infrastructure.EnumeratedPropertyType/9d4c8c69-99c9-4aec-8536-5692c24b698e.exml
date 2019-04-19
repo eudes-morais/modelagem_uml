@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Status" version="4">
+  <OBJECT>
+    <ID name="Status" mc="Infrastructure.EnumeratedPropertyType" uid="9d4c8c69-99c9-4aec-8536-5692c24b698e"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="5ecf9a4a-f7c5-4121-8070-018334a7c7bf"/>
+    <ATTRIBUTES>
+      <ATT name="BaseType">Enumerate</ATT>
+      <ATT name="Name"><![CDATA[Status]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Litteral">
+        <OBJECT>
+          <ID name="Disponivel" mc="Infrastructure.PropertyEnumerationLitteral" uid="7a2ffbdf-27bd-4d01-91e2-13b03ef7698c"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Disponivel]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Péssimo estado" mc="Infrastructure.PropertyEnumerationLitteral" uid="898c9233-e775-44e6-be02-ba2647cacc99"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Péssimo estado]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Quebrado" mc="Infrastructure.PropertyEnumerationLitteral" uid="a3fa9203-0346-47f9-9718-40be51d7288b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Quebrado]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Fora de linha" mc="Infrastructure.PropertyEnumerationLitteral" uid="1ecbffc6-455b-47c5-ba2b-04cbf4301b7c"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Fora de linha]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Outros" mc="Infrastructure.PropertyEnumerationLitteral" uid="9d57df76-596c-45d1-8f5d-d9cdb68cfeca"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Outros]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

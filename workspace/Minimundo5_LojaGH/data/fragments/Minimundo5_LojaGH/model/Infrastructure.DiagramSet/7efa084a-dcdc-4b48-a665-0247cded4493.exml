@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Minimundo5_LojaGH" version="4">
+  <OBJECT>
+    <ID name="Minimundo5_LojaGH" mc="Infrastructure.DiagramSet" uid="7efa084a-dcdc-4b48-a665-0247cded4493"/>
+    <PID name="Minimundo5_LojaGH" mc="Standard.Project" uid="845bba5f-518a-40a9-9165-6791f5417ffb"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Minimundo5_LojaGH]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

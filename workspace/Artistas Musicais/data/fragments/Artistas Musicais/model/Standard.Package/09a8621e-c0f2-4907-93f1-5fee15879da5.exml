@@ -1,0 +1,620 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="artistas musicais" version="4">
+  <OBJECT>
+    <ID name="artistas musicais" mc="Standard.Package" uid="09a8621e-c0f2-4907-93f1-5fee15879da5"/>
+    <PID name="Artistas Musicais" mc="Standard.Project" uid="95295be0-2fa2-4e51-a41a-ff0eb5b5c183"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[artistas musicais]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="Interpretes" mc="Standard.InformationFlow" uid="e54d20ca-45e5-45fc-ac00-adb28d6d27c5"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Interpretes]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="a1" mc="Standard.Instance" uid="f13e3d2b-675f-4476-98e7-e6f2fa7c944f"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="al2" mc="Standard.Instance" uid="81b83c7a-0a62-4758-9344-ffc35aa8114b"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID name="Artista" mc="Standard.Class" uid="ed27096b-33bb-4034-97ee-07c6b9f021f7"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Declared">
+        <OBJECT>
+          <ID name="a1" mc="Standard.Instance" uid="f13e3d2b-675f-4476-98e7-e6f2fa7c944f"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[a1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Artista" mc="Standard.Class" uid="ed27096b-33bb-4034-97ee-07c6b9f021f7"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codArtista" mc="Standard.AttributeLink" uid="0b9c1654-97c4-4278-8b39-deaacab4d9d7"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[1001]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codArtista]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codArtista" mc="Standard.Attribute" uid="307117e2-5c78-45b9-968f-39c4844d7405"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="f6a94e5e-c8e2-4661-a5cd-14c312e0a4b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Michael Jackson]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="7d1bdd4e-1001-4f95-88ae-792d54f09606"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nacionalidade" mc="Standard.AttributeLink" uid="bdc2d758-aa43-40da-acee-111abdb4d847"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[USA]]></ATT>
+                  <ATT name="Name"><![CDATA[nacionalidade]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nacionalidade" mc="Standard.Attribute" uid="711884fa-a5c6-479d-958b-2cca19c23070"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="a2" mc="Standard.Instance" uid="c8556ebb-87cd-4998-867b-84343a582a65"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[a2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Artista" mc="Standard.Class" uid="ed27096b-33bb-4034-97ee-07c6b9f021f7"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codArtista" mc="Standard.AttributeLink" uid="b2537bd6-bc88-464e-9733-f025f781e378"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[1002]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codArtista]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codArtista" mc="Standard.Attribute" uid="307117e2-5c78-45b9-968f-39c4844d7405"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="e1fee73a-f2c8-404c-afc9-4128cb7b764e"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Ray Charles]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="7d1bdd4e-1001-4f95-88ae-792d54f09606"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nacionalidade" mc="Standard.AttributeLink" uid="5f73d416-c428-422d-9a08-b978662efd43"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[USA]]></ATT>
+                  <ATT name="Name"><![CDATA[nacionalidade]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nacionalidade" mc="Standard.Attribute" uid="711884fa-a5c6-479d-958b-2cca19c23070"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="al1" mc="Standard.Instance" uid="cc6457f5-ffdb-4a5e-a51a-2cd234ddf9a2"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[al1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Album" mc="Standard.Class" uid="1fb55d1f-1359-4aa4-8c09-9fc710cd3288"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codAlbum" mc="Standard.AttributeLink" uid="77acd235-d72e-4784-9bbd-7abd435fc773"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[2001]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codAlbum]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codAlbum" mc="Standard.Attribute" uid="9ee98951-2253-40e6-a709-8e0e3de1a8a1"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="2eb34079-1879-49f2-aa03-d143edcb0a03"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Album - Too Slow]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="7fe35fab-dbe9-49c3-9a0a-7770cb8cfc86"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ano" mc="Standard.AttributeLink" uid="420ff6f1-0bbf-4f1d-ad5d-5d34b0caea9f"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[2017]]></ATT>
+                  <ATT name="Name"><![CDATA[ano]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="ano" mc="Standard.Attribute" uid="2f54e312-a532-492d-b9d0-20901700a032"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="al2" mc="Standard.Instance" uid="81b83c7a-0a62-4758-9344-ffc35aa8114b"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[al2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Album" mc="Standard.Class" uid="1fb55d1f-1359-4aa4-8c09-9fc710cd3288"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codAlbum" mc="Standard.AttributeLink" uid="0c31844f-9731-46f5-947f-a6884b2ab723"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[2002]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codAlbum]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codAlbum" mc="Standard.Attribute" uid="9ee98951-2253-40e6-a709-8e0e3de1a8a1"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="fd6c4b23-3c15-4b6f-8d5c-75670eb1d1d9"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Album - Alok 2018]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="7fe35fab-dbe9-49c3-9a0a-7770cb8cfc86"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ano" mc="Standard.AttributeLink" uid="a67fae8c-ad55-49da-b42a-c9e9bb1cea6b"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[2018]]></ATT>
+                  <ATT name="Name"><![CDATA[ano]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="ano" mc="Standard.Attribute" uid="2f54e312-a532-492d-b9d0-20901700a032"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="al3" mc="Standard.Instance" uid="81d26138-de31-43f1-a8ba-853a9573b5d7"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[al3]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Album" mc="Standard.Class" uid="1fb55d1f-1359-4aa4-8c09-9fc710cd3288"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codAlbum" mc="Standard.AttributeLink" uid="48adf771-daf1-4a4c-ae87-258563738c2a"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[2003]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codAlbum]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codAlbum" mc="Standard.Attribute" uid="9ee98951-2253-40e6-a709-8e0e3de1a8a1"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="5e547a37-a17f-4d03-b263-21e590921028"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Album - Vintage Club RMX]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="7fe35fab-dbe9-49c3-9a0a-7770cb8cfc86"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="ano" mc="Standard.AttributeLink" uid="09a47aef-bedb-4647-94a5-3d184a76e75d"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[2018]]></ATT>
+                  <ATT name="Name"><![CDATA[ano]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="ano" mc="Standard.Attribute" uid="2f54e312-a532-492d-b9d0-20901700a032"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="m1" mc="Standard.Instance" uid="0913033b-5d66-4e46-bca1-cdff6b6b997d"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[m1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Musica" mc="Standard.Class" uid="89959068-8b69-44cb-be6e-129efd66d67d"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codMusica" mc="Standard.AttributeLink" uid="c3ebe26c-fff6-4929-9404-5a1c56fc316f"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[3001]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codMusica]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codMusica" mc="Standard.Attribute" uid="b7d4717a-b75a-4c79-9814-7f368b72517f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="5e722d85-47cc-4d0e-b3a4-e9a8481f4132"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Intro Rework]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="f6703845-11a9-4cdb-b86a-ebc8ac1cab20"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="duracao" mc="Standard.AttributeLink" uid="0e430696-a435-42c4-bb1b-d9771a97d35b"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[452]]></ATT>
+                  <ATT name="Name"><![CDATA[duracao]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="duracao" mc="Standard.Attribute" uid="692e8cc1-d6b4-4c63-81fc-3dc815583492"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="m2" mc="Standard.Instance" uid="1c9ebfd3-871c-4bd1-9993-335521366aac"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[m2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Musica" mc="Standard.Class" uid="89959068-8b69-44cb-be6e-129efd66d67d"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codMusica" mc="Standard.AttributeLink" uid="9cd8c09a-2d0f-41a9-86e2-fabcaf5a25ed"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[3002]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codMusica]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codMusica" mc="Standard.Attribute" uid="b7d4717a-b75a-4c79-9814-7f368b72517f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="409a86a3-b2da-477e-b921-baf70361b710"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Too Slow]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="f6703845-11a9-4cdb-b86a-ebc8ac1cab20"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="duracao" mc="Standard.AttributeLink" uid="324969b6-b2e3-476c-84f0-5d61df23ebda"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[167]]></ATT>
+                  <ATT name="Name"><![CDATA[duracao]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="duracao" mc="Standard.Attribute" uid="692e8cc1-d6b4-4c63-81fc-3dc815583492"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="m3" mc="Standard.Instance" uid="93b45f6b-511a-4a15-ab07-c1c1172ba8d9"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[m3]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Musica" mc="Standard.Class" uid="89959068-8b69-44cb-be6e-129efd66d67d"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codMusica" mc="Standard.AttributeLink" uid="b5b467d5-2aac-4adf-82d6-3ab42a2c6295"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[3003]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codMusica]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codMusica" mc="Standard.Attribute" uid="b7d4717a-b75a-4c79-9814-7f368b72517f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="6b92ee4f-d1fd-4dd0-b292-24df97f60200"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Where Are You]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="f6703845-11a9-4cdb-b86a-ebc8ac1cab20"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="duracao" mc="Standard.AttributeLink" uid="5828d0bf-f3f9-4ca6-a635-b01aa246c3ad"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[165]]></ATT>
+                  <ATT name="Name"><![CDATA[duracao]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="duracao" mc="Standard.Attribute" uid="692e8cc1-d6b4-4c63-81fc-3dc815583492"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="m4" mc="Standard.Instance" uid="652c29e9-1c93-471a-9e5e-6123eb6351c5"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[m4]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Musica" mc="Standard.Class" uid="89959068-8b69-44cb-be6e-129efd66d67d"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="&lt;&lt;oid&gt;&gt; codMusica" mc="Standard.AttributeLink" uid="c1a1c130-5a75-40d1-a090-7b620c386f40"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[3004]]></ATT>
+                  <ATT name="Name"><![CDATA[<<oid>> codMusica]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="&lt;&lt;oid&gt;&gt; codMusica" mc="Standard.Attribute" uid="b7d4717a-b75a-4c79-9814-7f368b72517f"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nome" mc="Standard.AttributeLink" uid="1bc71a61-ad28-47cc-9190-5fce2b15bfac"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[Too Slow Too Slow]]></ATT>
+                  <ATT name="Name"><![CDATA[nome]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nome" mc="Standard.Attribute" uid="f6703845-11a9-4cdb-b86a-ebc8ac1cab20"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="duracao" mc="Standard.AttributeLink" uid="5e599b78-2d49-491a-a1bb-b5da3f053ec8"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[167]]></ATT>
+                  <ATT name="Name"><![CDATA[duracao]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="duracao" mc="Standard.Attribute" uid="692e8cc1-d6b4-4c63-81fc-3dc815583492"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Artista" mc="Standard.Class" uid="ed27096b-33bb-4034-97ee-07c6b9f021f7"/>
+        <COMPID name="Album" mc="Standard.Class" uid="1fb55d1f-1359-4aa4-8c09-9fc710cd3288"/>
+        <COMPID name="Musica" mc="Standard.Class" uid="89959068-8b69-44cb-be6e-129efd66d67d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="ArtistasMusicais" mc="Standard.ClassDiagram" uid="1446acb7-259d-4666-b021-0b88aa01b470"/>
+        <COMPID name="ObjArtistasMusicais" mc="Standard.ObjectDiagram" uid="23913ce1-3543-4bd1-a097-2be141390b29"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

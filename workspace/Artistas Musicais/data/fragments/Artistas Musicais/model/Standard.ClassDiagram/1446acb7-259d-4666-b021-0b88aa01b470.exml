@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ArtistasMusicais" version="4">
+  <OBJECT>
+    <ID name="ArtistasMusicais" mc="Standard.ClassDiagram" uid="1446acb7-259d-4666-b021-0b88aa01b470"/>
+    <PID name="artistas musicais" mc="Standard.Package" uid="09a8621e-c0f2-4907-93f1-5fee15879da5"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">269</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[ArtistasMusicais]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="Artista" mc="Standard.Class" uid="ed27096b-33bb-4034-97ee-07c6b9f021f7"/>
+        <REFOBJ>
+          <ID name="&lt;&lt;oid&gt;&gt; codArtista" mc="Standard.Attribute" uid="307117e2-5c78-45b9-968f-39c4844d7405"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nome" mc="Standard.Attribute" uid="7d1bdd4e-1001-4f95-88ae-792d54f09606"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nacionalidade" mc="Standard.Attribute" uid="711884fa-a5c6-479d-958b-2cca19c23070"/>
+        </REFOBJ>
+        <ID name="Album" mc="Standard.Class" uid="1fb55d1f-1359-4aa4-8c09-9fc710cd3288"/>
+        <REFOBJ>
+          <ID name="&lt;&lt;oid&gt;&gt; codAlbum" mc="Standard.Attribute" uid="9ee98951-2253-40e6-a709-8e0e3de1a8a1"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nome" mc="Standard.Attribute" uid="7fe35fab-dbe9-49c3-9a0a-7770cb8cfc86"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ano" mc="Standard.Attribute" uid="2f54e312-a532-492d-b9d0-20901700a032"/>
+        </REFOBJ>
+        <ID name="Musica" mc="Standard.Class" uid="89959068-8b69-44cb-be6e-129efd66d67d"/>
+        <REFOBJ>
+          <ID name="&lt;&lt;oid&gt;&gt; codMusica" mc="Standard.Attribute" uid="b7d4717a-b75a-4c79-9814-7f368b72517f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nome" mc="Standard.Attribute" uid="f6703845-11a9-4cdb-b86a-ebc8ac1cab20"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="duracao" mc="Standard.Attribute" uid="692e8cc1-d6b4-4c63-81fc-3dc815583492"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="albuns" mc="Standard.AssociationEnd" uid="c3245608-ed65-4ad2-8d04-85e533160eb6"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="participantes" mc="Standard.AssociationEnd" uid="5f922270-a4d2-4220-960b-7dbc0e7dfca0"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="musicas" mc="Standard.AssociationEnd" uid="f73e6774-7d13-4679-984b-dee817ec16ea"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="albuns" mc="Standard.AssociationEnd" uid="db288eeb-3b68-474a-9f0c-0f18df7a1b34"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="interpretes" mc="Standard.AssociationEnd" uid="e2347746-97af-4191-90a9-e479e6142ba6"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="musicasInterpretadas" mc="Standard.AssociationEnd" uid="ae7c1927-842a-4345-86d4-5c05701a892f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="autoriasMusicais" mc="Standard.AssociationEnd" uid="5e774509-6ed3-4877-a3dc-6b75d58e9b70"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="autores" mc="Standard.AssociationEnd" uid="eda2ad68-d28c-44b8-9b1d-ec482301e45b"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="1e0a2616-21e1-4a35-82a8-147e8876ecda"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

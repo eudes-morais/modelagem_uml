@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EnumStatusProduto" version="4">
+  <OBJECT>
+    <ID name="EnumStatusProduto" mc="Infrastructure.Stereotype" uid="305f5656-1bec-4d51-9394-40e9ed4bded4"/>
+    <PID name="LocalProfile" mc="Infrastructure.Profile" uid="6695a8a9-3cd8-4d91-8537-868fbf07e7bf"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[EnumStatusProduto]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.ModelElement]]></ATT>
+      <ATT name="Name"><![CDATA[EnumStatusProduto]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTable">
+        <COMPID name="TableProduto" mc="Infrastructure.PropertyTableDefinition" uid="e120d1da-ee2f-4317-96fc-dcb2988a4be4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Status" version="4">
+  <OBJECT>
+    <ID name="Status" mc="Infrastructure.Stereotype" uid="c5bf92f9-de63-4147-9b45-817287d9355d"/>
+    <PID name="LocalProfile" mc="Infrastructure.Profile" uid="68eafc23-a781-45d9-930b-71772c3aefc0"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[Status]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Infrastructure.ModelElement]]></ATT>
+      <ATT name="Name"><![CDATA[Status]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTable">
+        <COMPID name="TableStatus" mc="Infrastructure.PropertyTableDefinition" uid="dcc89339-5a73-4352-9f8f-2260459fbc30"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Minimundo4_UniversidadeGH" version="4">
+  <OBJECT>
+    <ID name="Minimundo4_UniversidadeGH" mc="Standard.Project" uid="fcab6c9e-581c-4df3-a7cf-4556bc216d73"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Minimundo4_UniversidadeGH]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="minimundo4_universidadegh" mc="Standard.Package" uid="048f7204-eabb-4a1f-b281-06573c7c919b"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Minimundo4_UniversidadeGH" mc="Infrastructure.DiagramSet" uid="03ee11fe-3973-407d-8ba9-352d78b197f5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ObjArtistasMusicais" version="4">
+  <OBJECT>
+    <ID name="ObjArtistasMusicais" mc="Standard.ObjectDiagram" uid="23913ce1-3543-4bd1-a097-2be141390b29"/>
+    <PID name="artistas musicais" mc="Standard.Package" uid="09a8621e-c0f2-4907-93f1-5fee15879da5"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">478</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[ObjArtistasMusicais]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <REFOBJ>
+          <ID name="a1" mc="Standard.Instance" uid="f13e3d2b-675f-4476-98e7-e6f2fa7c944f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="&lt;&lt;oid&gt;&gt; codArtista" mc="Standard.AttributeLink" uid="0b9c1654-97c4-4278-8b39-deaacab4d9d7"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nome" mc="Standard.AttributeLink" uid="f6a94e5e-c8e2-4661-a5cd-14c312e0a4b1"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nacionalidade" mc="Standard.AttributeLink" uid="bdc2d758-aa43-40da-acee-111abdb4d847"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="a2" mc="Standard.Instance" uid="c8556ebb-87cd-4998-867b-84343a582a65"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nome" mc="Standard.AttributeLink" uid="e1fee73a-f2c8-404c-afc9-4128cb7b764e"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="&lt;&lt;oid&gt;&gt; codArtista" mc="Standard.AttributeLink" uid="b2537bd6-bc88-464e-9733-f025f781e378"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nacionalidade" mc="Standard.AttributeLink" uid="5f73d416-c428-422d-9a08-b978662efd43"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="al1" mc="Standard.Instance" uid="cc6457f5-ffdb-4a5e-a51a-2cd234ddf9a2"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="&lt;&lt;oid&gt;&gt; codAlbum" mc="Standard.AttributeLink" uid="77acd235-d72e-4784-9bbd-7abd435fc773"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nome" mc="Standard.AttributeLink" uid="2eb34079-1879-49f2-aa03-d143edcb0a03"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ano" mc="Standard.AttributeLink" uid="420ff6f1-0bbf-4f1d-ad5d-5d34b0caea9f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="al2" mc="Standard.Instance" uid="81b83c7a-0a62-4758-9344-ffc35aa8114b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="&lt;&lt;oid&gt;&gt; codAlbum" mc="Standard.AttributeLink" uid="0c31844f-9731-46f5-947f-a6884b2ab723"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ano" mc="Standard.AttributeLink" uid="a67fae8c-ad55-49da-b42a-c9e9bb1cea6b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nome" mc="Standard.AttributeLink" uid="fd6c4b23-3c15-4b6f-8d5c-75670eb1d1d9"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="al3" mc="Standard.Instance" uid="81d26138-de31-43f1-a8ba-853a9573b5d7"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nome" mc="Standard.AttributeLink" uid="5e547a37-a17f-4d03-b263-21e590921028"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ano" mc="Standard.AttributeLink" uid="09a47aef-bedb-4647-94a5-3d184a76e75d"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="&lt;&lt;oid&gt;&gt; codAlbum" mc="Standard.AttributeLink" uid="48adf771-daf1-4a4c-ae87-258563738c2a"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="m1" mc="Standard.Instance" uid="0913033b-5d66-4e46-bca1-cdff6b6b997d"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="&lt;&lt;oid&gt;&gt; codMusica" mc="Standard.AttributeLink" uid="c3ebe26c-fff6-4929-9404-5a1c56fc316f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nome" mc="Standard.AttributeLink" uid="5e722d85-47cc-4d0e-b3a4-e9a8481f4132"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="duracao" mc="Standard.AttributeLink" uid="0e430696-a435-42c4-bb1b-d9771a97d35b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="m2" mc="Standard.Instance" uid="1c9ebfd3-871c-4bd1-9993-335521366aac"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nome" mc="Standard.AttributeLink" uid="409a86a3-b2da-477e-b921-baf70361b710"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="duracao" mc="Standard.AttributeLink" uid="324969b6-b2e3-476c-84f0-5d61df23ebda"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="&lt;&lt;oid&gt;&gt; codMusica" mc="Standard.AttributeLink" uid="9cd8c09a-2d0f-41a9-86e2-fabcaf5a25ed"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="m3" mc="Standard.Instance" uid="93b45f6b-511a-4a15-ab07-c1c1172ba8d9"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nome" mc="Standard.AttributeLink" uid="6b92ee4f-d1fd-4dd0-b292-24df97f60200"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="&lt;&lt;oid&gt;&gt; codMusica" mc="Standard.AttributeLink" uid="b5b467d5-2aac-4adf-82d6-3ab42a2c6295"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="duracao" mc="Standard.AttributeLink" uid="5828d0bf-f3f9-4ca6-a635-b01aa246c3ad"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="m4" mc="Standard.Instance" uid="652c29e9-1c93-471a-9e5e-6123eb6351c5"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="&lt;&lt;oid&gt;&gt; codMusica" mc="Standard.AttributeLink" uid="c1a1c130-5a75-40d1-a090-7b620c386f40"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="nome" mc="Standard.AttributeLink" uid="1bc71a61-ad28-47cc-9190-5fce2b15bfac"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="duracao" mc="Standard.AttributeLink" uid="5e599b78-2d49-491a-a1bb-b5da3f053ec8"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Interpretes" mc="Standard.InformationFlow" uid="e54d20ca-45e5-45fc-ac00-adb28d6d27c5"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="3b9edc0b-f803-4e13-b01a-6930fcbfcd42"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

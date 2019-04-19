@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LocalModule" version="4">
+  <OBJECT>
+    <ID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="e9594d9d-ead0-473f-970a-e7c1995df8c7"/>
+    <ATTRIBUTES>
+      <ATT name="LicenseKey">0</ATT>
+      <ATT name="MajVersion">0</ATT>
+      <ATT name="MinVersion">0</ATT>
+      <ATT name="MinMinVersion"></ATT>
+      <ATT name="MinBinVersionCompatibility"></ATT>
+      <ATT name="JavaClassName"></ATT>
+      <ATT name="Name"><![CDATA[LocalModule]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedProfile">
+        <COMPID name="LocalProfile" mc="Infrastructure.Profile" uid="4b776397-e9e3-4ca7-a3a0-4a03854dc2d6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="oid" mc="Infrastructure.Stereotype" uid="4312383e-7bd8-4909-96a6-aba3d7a9ba81"/>
+        <ID name="Enum Constant" mc="Infrastructure.Stereotype" uid="7091c660-55f5-4e57-bea9-8a08d2c4c34d"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
