@@ -205,9 +205,6 @@ Sexo=M
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-        <COMPID name="Supervisor" mc="Standard.Class" uid="9ee46c63-c3a7-4414-93c9-4c3200c4a901"/>
-        <COMPID name="Gerente" mc="Standard.Class" uid="c690302d-ab5f-4f7f-a807-7dbebe0e3a37"/>
-        <COMPID name="Engenheiros" mc="Standard.Class" uid="a10e86c5-8401-4ae0-9913-0d90b2e4d18f"/>
         <COMPID name="Dependente" mc="Standard.Class" uid="4c567c05-cde4-4569-abfd-074eb89b5322"/>
       </COMP>
       <COMP relation="Product">

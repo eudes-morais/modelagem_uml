@@ -58,7 +58,6 @@
         </OBJECT>
         <COMPID name="Aluguel" mc="Standard.Class" uid="8e0ee442-56b0-479c-8b96-f92a5a264c00"/>
         <COMPID name="Fita" mc="Standard.Class" uid="5819e414-60ad-4fef-97ef-17d53a192dc9"/>
-        <COMPID name="Unidades_alugadas" mc="Standard.Class" uid="b8867d39-1297-4e41-b167-6b9f226b4b23"/>
         <COMPID name="Pagamento" mc="Standard.Class" uid="01661f49-8a8a-4720-8dc9-7563f5eeab4e"/>
         <COMPID name="Multa" mc="Standard.Class" uid="daa3faa4-93b7-4360-aec7-4402cb24c05a"/>
         <OBJECT>
