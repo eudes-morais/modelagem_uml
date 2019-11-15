@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="solid" version="4">
+  <OBJECT>
+    <ID name="solid" mc="Standard.Package" uid="937f99d3-c579-4d46-866e-5819262e5177"/>
+    <PID name="Solid" mc="Standard.Project" uid="1cd78874-3a06-41e7-8fe8-e0e73e9d2c5d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[solid]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Atividade" mc="Standard.Class" uid="696fbdb3-54cf-4e8f-8ba7-ab35a92a925e"/>
+        <COMPID name="Empresa" mc="Standard.Class" uid="c7286cb7-4cff-4d86-8e5a-fb1f472a44a0"/>
+        <COMPID name="Funcionários" mc="Standard.Class" uid="8b07c0e3-6ade-4d89-852e-99b8f037ae6d"/>
+        <COMPID name="Licença" mc="Standard.Class" uid="7f1a3d87-a0dd-42bc-8eaa-ef300ff0eea9"/>
+        <COMPID name="Produtos" mc="Standard.Class" uid="6ebbe405-8a63-49ad-8b81-4d762dd01093"/>
+        <COMPID name="Telefone" mc="Standard.Class" uid="bc49af4c-e32e-46ce-8dc1-d8c1b58f2ca6"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Solid" mc="Standard.ClassDiagram" uid="fcb9c15f-f598-4b34-ba07-dee1cd4e9239"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="f8d731a3-974c-4b56-ac8e-69e2b63389e1"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Modelagem da Solid Consulting]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
