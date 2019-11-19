@@ -15,7 +15,11 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Atividade" mc="Standard.Class" uid="696fbdb3-54cf-4e8f-8ba7-ab35a92a925e"/>
+        <COMPID name="CNAE" mc="Standard.Class" uid="3676e13d-c08f-41aa-800c-b02afd23d696"/>
+        <COMPID name="Cidade" mc="Standard.Class" uid="70ccd6e6-0b92-4f9c-9219-610a5f14c165"/>
         <COMPID name="Empresa" mc="Standard.Class" uid="c7286cb7-4cff-4d86-8e5a-fb1f472a44a0"/>
+        <COMPID name="Endereço" mc="Standard.Class" uid="3bbfe654-a8fa-4c79-94c2-e341969e0c11"/>
+        <COMPID name="Estado" mc="Standard.Class" uid="616c0514-91b6-43f1-8ff9-4c153da7fe30"/>
         <COMPID name="Funcionários" mc="Standard.Class" uid="8b07c0e3-6ade-4d89-852e-99b8f037ae6d"/>
         <COMPID name="Licença" mc="Standard.Class" uid="7f1a3d87-a0dd-42bc-8eaa-ef300ff0eea9"/>
         <COMPID name="Produtos" mc="Standard.Class" uid="6ebbe405-8a63-49ad-8b81-4d762dd01093"/>
