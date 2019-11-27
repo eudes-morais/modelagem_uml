@@ -24,6 +24,7 @@
         <COMPID name="Licença" mc="Standard.Class" uid="7f1a3d87-a0dd-42bc-8eaa-ef300ff0eea9"/>
         <COMPID name="Produtos" mc="Standard.Class" uid="6ebbe405-8a63-49ad-8b81-4d762dd01093"/>
         <COMPID name="Telefone" mc="Standard.Class" uid="bc49af4c-e32e-46ce-8dc1-d8c1b58f2ca6"/>
+        <COMPID name="Órgão Responsável" mc="Standard.Class" uid="3456f4d7-17bf-4a33-a89f-cb69688894d1"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Solid" mc="Standard.ClassDiagram" uid="fcb9c15f-f598-4b34-ba07-dee1cd4e9239"/>
